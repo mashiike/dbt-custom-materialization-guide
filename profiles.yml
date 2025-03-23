@@ -1,0 +1,12 @@
+dbt_custom_materialization_guide:
+  outputs:
+    dev:
+      dbname: postgres
+      host: db
+      pass: postgres
+      port: 5432
+      schema: public
+      threads: 10
+      type: postgres
+      user: postgres
+  target: dev
